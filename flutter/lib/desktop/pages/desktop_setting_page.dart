@@ -2625,7 +2625,7 @@ class _AboutState extends State<_About> {
                   ).marginSymmetric(vertical: 4.0)),
               InkWell(
                   onTap: () {
-                    launchUrlString('https://rustdesk.com');
+                    launchUrlString('https://soporte.appinceger.com/remoto/');
                   },
                   child: Text(
                     translate('Website'),
@@ -2647,7 +2647,7 @@ class _AboutState extends State<_About> {
                             style: const TextStyle(color: Colors.white),
                           ),
                           Text(
-                            translate('Slogan_tip'),
+                            'Soporte técnico: INCEGER Telecomunicaciones S.A.S.\nWhatsApp 314 458 4372 · Nocaima, Cundinamarca',
                             style: TextStyle(
                                 fontWeight: FontWeight.w800,
                                 color: Colors.white),
